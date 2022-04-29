@@ -1,0 +1,82 @@
+.form {
+  margin: 2rem 0;
+}
+
+.container {
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 2rem;
+  margin: 15rem 2rem 2rem 0;
+}
+
+.container h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--link-color);
+  padding: 0.5rem 0;
+}
+.container p {
+  font-size: 13px;
+  padding: 0.5rem 1rem 0.5rem 0;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--link-color);
+}
+
+.formFields > input {
+  width: 100%;
+  height: 48px;
+  border-radius: 4px;
+  padding: 8px, 12px, 8px, 12px;
+  font-size: 1.6rem;
+  margin: 0.5rem 0;
+  border-style: none;
+  text-indent: 1rem;
+  border: 1px solid rgb(207, 207, 207);
+}
+
+.container > form > button {
+  height: 48px;
+  width: 100%;
+  border-radius: 4px;
+  padding: 12px, 20px;
+  border-style: none;
+  background-color: var(--btn-color);
+  color: #fff;
+
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: center;
+
+  margin-top: 0.8rem;
+}
+.container > form > button {
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 32em) {
+  .form {
+    margin: 0 auto;
+    max-width: 46rem;
+  }
+  .container {
+    border-radius: 12px;
+  }
+}
+@media only screen and (min-width: 62em) {
+  .form {
+    margin: 0 auto;
+    max-width: 48rem;
+  }
+  .container {
+    width: 46rem;
+    border-radius: 12px;
+  }
+}

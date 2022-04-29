@@ -1,0 +1,74 @@
+.container {
+  padding: 0 1.7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logoImgDesktop {
+  display: none;
+}
+.navigation {
+  display: none;
+}
+@media only screen and (min-width: 62em) {
+  .container {
+    padding: 0.5rem 4rem;
+    display: flex;
+    align-items: center;
+    flex: 1;
+  }
+  .menuIcon {
+    display: none;
+  }
+  .logoImgMobile {
+    display: none;
+  }
+  .logoImgDesktop {
+    display: block;
+    flex: 1;
+  }
+
+  .navigation {
+    flex: 3;
+    display: block;
+    display: flex;
+    justify-content: space-between;
+  }
+  .navLinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 1;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #505d68;
+  }
+  .navLinks li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .navButton {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+  }
+
+  .navButton button:hover {
+    cursor: pointer;
+  }
+  .navButton > button {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #424b5a;
+    padding: 1.3rem 4.2rem;
+    border-radius: 4px;
+    border: 1px solid #51565f;
+    background: transparent;
+  }
+}

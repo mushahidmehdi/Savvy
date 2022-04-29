@@ -1,0 +1,95 @@
+body.activeModal {
+  overflow-y: hidden;
+}
+
+.modal,
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.overlay {
+  background: rgba(49, 49, 49, 0.8);
+}
+.modalContent {
+  z-index: 99999;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #f1f1f1;
+  padding: 14px 28px;
+  border-radius: 3px;
+  max-width: 900px;
+  min-width: 500px;
+}
+.addAddress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+.addAddress > button {
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 12px, 20px;
+  border-style: none;
+  background-color: var(--btn-color);
+  color: #fff;
+  padding: 1.6rem 2.7rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: center;
+
+  margin-top: 0.8rem;
+}
+
+.formFields > input {
+  z-index: 9999;
+
+  width: 100%;
+  height: 48px;
+  border-radius: 4px;
+  padding: 8px, 12px, 8px, 12px;
+  font-size: 1.6rem;
+  margin: 0.5rem 0;
+  border-style: none;
+  text-indent: 1rem;
+  border: 1px solid rgb(145, 144, 144);
+}
+
+.formFields + button {
+  height: 48px;
+  width: 100%;
+  border-radius: 4px;
+  padding: 12px, 20px;
+  border-style: none;
+  background-color: var(--btn-color);
+  color: #fff;
+
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: center;
+
+  margin-top: 0.8rem;
+}
+
+.formDropdown {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  position: relative;
+}
+.formDropdown :nth-of-type(1) {
+  margin-inline-end: 1rem;
+}

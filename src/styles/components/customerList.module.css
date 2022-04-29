@@ -1,0 +1,41 @@
+.UserCustomer {
+  margin-top: 7rem;
+}
+.UserCustomer > h1 {
+  font-size: 2.6rem;
+  text-align: center;
+}
+.container {
+  display: flex;
+  margin: 2rem auto;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  background-color: var(--secondary-bg);
+  border-radius: 0.6rem;
+  padding: 2.4rem;
+  margin-bottom: 2px;
+  max-width: 78rem;
+
+  justify-content: space-evenly;
+}
+.container:hover {
+  cursor: pointer;
+}
+
+.flightInfoRow {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.flightInfoRow p:nth-child(2) {
+  color: var(--link-color);
+}
+
+.flightInfoRow > button {
+  padding: 1.2rem 2.9rem;
+  background-color: var(--btn-color);
+  border-style: none;
+  border-radius: 0.5rem;
+  color: #fff;
+}
